@@ -4,7 +4,7 @@ Test for correct pandas version
 import pandas as pd
 
 
-PANDAS_VERSION = "1.5.3"
+PANDAS_VERSION = "2.3.1"
 
 
 def test_pandas_version():
@@ -14,4 +14,5 @@ def test_pandas_version():
 
 if __name__ == "__main__":
     test_pandas_version()
+
     print("Pandas version is correct!")
